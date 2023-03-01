@@ -11,6 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+	    // Pequeño comentario para cambiar el index
             require_once 'Espectaculo.php';
             
             $espectaculo = new Espectaculo("QUE", "Quédate conmigo", "02");
